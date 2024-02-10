@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    font-family: montserrat;
+    color: white;
+    font-size: 20px;
+}
+
+.SearchBar{
+    width: 40vh;
+    height: 46px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border-radius: 5px;
+    background-color: rgba(50, 50, 50, 1);
+    align-self: center;
+    justify-content: space-between;
+    display: flexbox;
+    flex-direction: row;
+
+}
+
+#MagnifyingGlass{
+    height: 24px;
+    width: 24px;
+}
+
+#Xmark{
+    height: 24px;
+    width: 24px;  
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+#MagnifyingGlass{
+    height: 24px;
+    width: 24px;  
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.MovieBox{
+    width: 65vw;
+    height: 83px;
+    background-color: #1A1A1A;
+    border: solid;
+    border-left-color: #FFFFFF1F;   
+    border-left-width: 128px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+   
+}
+
+.MovieBoxText{
+    padding-top: 30px;
+    position: absolute;
+    left: 150px;
+    
+}
+
+#PlayButton{
+    height: 18px;
+    width: 18px; 
+    padding-top: 30px;
+    align-self: center;
+    position: absolute;
+    right: 50px;
+    
+}
+
+.SearchBarText{
+    position: absolute;
+    left: 35px;
+    padding: 12px;
+}
+
+
+
+footer{
+    background-color: #171717; 
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.Icon{
+    display: flex;
+    flex-direction: column;
+    height: 26px;
+    width: 21px;
+    padding-top: 10px;
+}
+
+.IconName{
+    align-self: center;
+}
+
+
