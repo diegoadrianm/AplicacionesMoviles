@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="FakeflixStyles.css">
+   
     <title>Fakeflix</title>
 </head>
 <body>
-    
-    <div class="SearchBar">
+    <input type="text" id="cuadroTexto">
         <div id="MagnifyingGlass"><img src="magnifying-glass-solid.svg" alt=""></div>
-        <div class="SearchBarText">Dark</div>
-        <div class="SearchBarTextAlt">Buscar serie o pelicula...</div>
+        <div id="SearchBarText">Dark</div>
+        <div id="SearchBarTextAlt">Buscar serie o pelicula...</div>
         <div><img src="xmark-solid.svg" alt="" id="Xmark"></div>
         <div><img src="microphone-solid.svg" alt="" id="Mic"></div>
+    </input>
+    <div id="recomendaciones">
+        <ul>
+            <li>El rey leon</li>
+            <li>Tarzan</li>
+            <li>Buscando a Nemo</li>
+        </ul>
     </div>
-    
-    <div class="weirdLine"><div class="weirdlLineText"> SERIES & PELICULAS</div></div>
 
-    <div class="container">
-    <div class="SearchBar">
-        <div id="MagnifyingGlass"><img src="magnifying-glass-solid.svg" alt=""></div>
-        <div class="SearchBarText">Dark</div>
-        <div class="SearchBarTextAlt">Buscar serie o pelicula...</div>
-        <div><img src="xmark-solid.svg" alt="" id="Xmark"></div>
-        <div><img src="microphone-solid.svg" alt="" id="Mic"></div>
-    </div>
-    
+
     <div class="weirdLine"><div class="weirdlLineText"> SERIES & PELICULAS</div></div>
 
     <div class="container">
@@ -126,5 +123,6 @@
             <div class="IconName">More</div>
         </div>
 </footer>
+<script src="Fakeflix.js"></script>
 </body>
 </html>
